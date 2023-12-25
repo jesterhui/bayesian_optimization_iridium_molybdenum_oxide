@@ -1,0 +1,1 @@
+Data and scripts required to reproduce the combined density functional theory and Bayesian optimization workflows for "High-performance iridium-molybdenum oxide electrocatalysts for water oxidation in acid: Bayesian optimization discovery and experimental testing".
