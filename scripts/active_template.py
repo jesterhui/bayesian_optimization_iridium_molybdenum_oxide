@@ -252,7 +252,7 @@ POOL_NEXT_SYSTEMS = POOL_TRAIN[np.argsort(EI)[-1:]]
 X_TRAIN = X_TRAIN.drop(X_TRAIN.index[np.argsort(EI)[-1:]])
 POOL_TRAIN = np.delete(POOL_TRAIN, np.argsort(EI)[-1:])
 # study points with highest EI
-for _ in range(200):
+for _ in range(2000):
     NEW_ENERGIES = []
     NOT_CONVERGED = []
     for i in range(1):
